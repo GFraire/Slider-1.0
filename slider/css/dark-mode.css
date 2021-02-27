@@ -1,0 +1,35 @@
+/*General*/
+
+:root {
+  --light-purple: #A29BFE;
+  --dark-purple: #9088FA;
+  --dark-mode-bg: #202022;
+}
+
+body.dark-mode {
+  background-color: var(--dark-mode-bg);
+}
+
+/*Header*/
+
+#cabecalho.dark-mode {
+  background-color: #524c4c;
+}
+
+#navegation > a.dark-mode {
+  color: white;
+}
+
+.black-mode > p.dark-mode {
+  color: white;
+}
+
+/*Slider*/
+
+#slider-container.dark-mode {
+  background-color: #524c4c;
+}
+
+#slider-container > h2.dark-mode {
+  color: #FFF;
+}

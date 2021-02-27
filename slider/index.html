@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/js.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/dark-mode.css">
+  <title>Slider</title>
+</head>
+<body>
+
+  <header id="cabecalho">
+
+    <img draggable="false" src="./images/js.png" alt="Ícone JavaScript">
+
+    <nav id="navegation">
+      <a href="">Confira todos os projetos</a>
+      <a href="">Sobre mim</a>
+      <a href="">Entre em contato</a>
+    </nav>
+
+    <div class="black-mode">
+      <p>Modo escuro</p>
+      <label class="toogle-button">
+        <input id="check-dark-mode" type="checkbox">
+        <span class="slide round"></span>
+      </label>
+    </div>
+
+  </header>
+
+  <hr>
+  
+  <main id="conteudo">
+    
+    <section id="slider-container">
+
+      <h2>Confira essas fotos!</h2>
+
+      <hr>
+
+      <div class="slider">
+
+        <img id="prev-image" draggable="false" src="./images/left-arrow.png" alt="Ir para a esquerda">
+
+        <div class="layout-slider">
+          <div class="photo-slider"></div>
+        </div>
+
+        <img id="next-image" draggable="false" src="./images/right-arrow.png" alt="Ir para a direita">
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+<script src="./JS/dark-mode.js"></script>
+<script src="./JS/slider.js"></script>
